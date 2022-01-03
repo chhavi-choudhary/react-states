@@ -17,9 +17,10 @@ class Counter extends Component{
     render(){
         return(
             <>
+            <h2>Set a counter</h2>
             <div>Counter:{this.state.counter}</div>
-            <button onClick={ this.handleDecrement } >-</button>
-            <button onClick={this.handleIncrement}>+</button>
+            <button onClick={ this.handleDecrement } >- dectrement</button>
+            <button onClick={this.handleIncrement}>+ increment</button>
             </>
         )
     }
